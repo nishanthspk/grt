@@ -1,0 +1,45 @@
+[
+  {
+    "inputs": [
+      { "internalType": "string", "name": "initialData", "type": "string" }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "newData",
+        "type": "string"
+      }
+    ],
+    "name": "DataUpdated",
+    "type": "event"
+  },
+  {
+    "inputs": [],
+    "name": "getData",
+    "outputs": [{ "internalType": "string", "name": "", "type": "string" }],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      { "internalType": "string", "name": "newData", "type": "string" }
+    ],
+    "name": "setData",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "storedData",
+    "outputs": [{ "internalType": "string", "name": "", "type": "string" }],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
